@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background:darkgray;
+    /* display: flex; */
+    justify-content:center ;
+    align-items: center;
+}
+
+body{
+    display:flex;
+}
+
+.a{
+    text-align: center;
+    margin-right: 10px;
+    font-size: 60px;
+}
+
+.b{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 60px;
+}
+
+ #verticalButtons{
+    display:flex;
+    flex-direction: column;
+} 
+
+button{
+    width: 100px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 9px 5px 7px 5px;
+    margin:5px;
+    cursor:pointer;
+    font-weight: bold;
+    outline: 2px;
+
+}
+
+button:hover{
+    background:rgb(141, 141, 218);
+}
+
+#carCanvas{
+    background:lightgray;
+    
+}
+
+#networkCanvas{
+    background:black;
+}
